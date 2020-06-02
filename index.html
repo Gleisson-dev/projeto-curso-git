@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<h1>EAD Pernambuco</h1>
+
+	<link rel="stylesheet" href="css/boostrap.min.css"  media="screen" />
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	
+</head>
+<body>
+
+	<?php echo area; ?>
+	
+	<form>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Nome">
+    </div><p>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Sobrenome">
+    </div>
+  </div>
+
+  	<p><span>Calendario</span></p>
+	<input type="date">
+
+<form>
+  <p>Sexo</p>
+
+    <label><input type="radio" name="biotipo" value="Masculino"/>Masculino</label>
+  </p>
+  <p>
+    <label><input type="radio" name="biotipo" value="Feminino"/>Feminino</label>
+  </p>
+</form>
+
+	<p>Endereço</p>
+	<input type="text" name="Endereço">
+	<p>
+  	<form>
+		<form class="form-horizontal well">
+			<div class="control-group">
+				<label class="control-label" for="inputEmail">E-mail</label>
+				<div class="controls">
+					<input id="inputEmail" type="text" placeholder="Digite o seu E-mail..." />
+				</div>
+			</div><p>
+			<div class="control-group">
+				<label class="control-label" for="inputSenha">Senha</label>
+				<div class="controls">
+					<input id="inputSenha" type="password" placeholder="Digite a sua Senha..." />
+				</div>
+			</div><p>
+			<div class="control-group">
+				<div class="controls">
+					<label class="checkbox"><input type="checkbox" /> Lembrar Senha</label>
+					<button class="btn" type="submit">Cadastrar</button>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
